@@ -1,0 +1,17 @@
+.videoContainer{
+    height:280px;
+    width:100%;
+    padding:10px;
+    padding-bottom:0;
+    @apply bg-black-light-1;
+}
+
+.video{
+    height: calc(100% - 40px);
+    position:relative;
+}
+
+.controller{
+    height:40px;
+    @apply flex flex-row items-center justify-between;
+}

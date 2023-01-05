@@ -1,0 +1,5 @@
+.topBarContainer{
+    height:50px;
+    width:100%;
+    @apply bg-black-light-1 flex items-center justify-start gap-4 pl-4;
+}

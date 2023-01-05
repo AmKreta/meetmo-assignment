@@ -1,0 +1,4 @@
+.canvas{
+    grid-area:canvas;
+    @apply flex flex-col bg-black ;
+}

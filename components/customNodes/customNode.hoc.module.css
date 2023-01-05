@@ -1,0 +1,41 @@
+.container{
+    position:relative;
+}
+
+.cross{
+    position:absolute;
+    top:0;
+    right:0;
+    transform:translate(50%, -50%);
+    height:15px;
+    width:15px;
+    background-color:#D2D3Df;
+    border-radius:50%;
+    display:none;
+}
+
+.container:hover>.cross{
+    display:block;
+}
+
+.cross::after{
+    content:'';
+    position:absolute;
+    top:50%;
+    left:50%;
+    height:80%;
+    width:0;
+    border:1.5px solid #272C34;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.cross::before{
+    content:'';
+    position:absolute;
+    top:50%;
+    left:50%;
+    height:80%;
+    width:0;
+    border:1.5px solid #272C34;
+    transform:translate(-50%, -50%) rotate(45deg);
+}

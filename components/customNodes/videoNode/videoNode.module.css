@@ -1,0 +1,18 @@
+.nodeContainer{
+    height:70px;
+    width:150px;
+    @apply flex items-center bg-black-light-1 rounded-lg;
+}
+
+.iconContainer{
+    flex-grow:1;
+    height:50%;
+    position:relative;
+    @apply flex items-center justify-center;
+}
+
+.imageContainer{
+    flex-grow:1;
+    height:100%;
+    position:relative;   
+}

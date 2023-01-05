@@ -1,0 +1,10 @@
+.sliderContainer {
+  @apply mx-5 my-2;
+}
+
+.labelContainer {
+  font-size: 12px;
+  line-height: 17px;
+  text-transform: capitalize;
+  @apply flex items-center justify-between text-text-white;
+}

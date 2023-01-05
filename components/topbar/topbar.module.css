@@ -1,0 +1,52 @@
+.topbar {
+  grid-area: header;
+  @apply flex items-center justify-between;
+}
+
+.leftTools {
+  @apply flex items-center;
+}
+
+.leftToolIconContainer {
+  height: 50px;
+  width: 50px;
+  @apply flex items-center justify-center hover:cursor-pointer;
+}
+
+.leftToolIconContainer:not(:first-of-type) {
+  @apply ml-2;
+}
+
+.activeLeftTool {
+  @apply bg-black-light rounded-xl;
+}
+
+.newProject {
+  @apply flex items-center hover:cursor-pointer;
+}
+
+.newProject > span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.publishButton {
+  background-image: var(--gradient);
+  @apply px-2 py-1.5 flex items-center rounded-lg hover:cursor-pointer;
+}
+
+.publishButton > span {
+  color:white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  @apply ml-2;
+}
+
+.profileButton{
+    color:white;
+    height:35px;
+    @apply pr-4 flex items-center rounded-lg gap-2 bg-black hover:cursor-pointer;
+}

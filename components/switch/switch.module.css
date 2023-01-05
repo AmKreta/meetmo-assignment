@@ -1,0 +1,31 @@
+.switch{
+    height:var(--size);
+    width:40px;
+    border-radius:var(--size);
+    position:relative;
+    background-image:var(--gradient);
+    transition:.25s ease-in-out;
+    filter: grayscale(50%);
+    @apply hover:cursor-pointer;
+}
+
+.switch::after{
+    content:'';
+    position:absolute;
+    height:calc(var(--size) - var(--gap));
+    width:calc(var(--size) - var(--gap));
+    border-radius:50%;
+    background-color:white;
+    top:50%;
+    left:0;
+    transform:translate(calc(var(--gap) / 2), -50%);
+    transition:.25s ease-in-out;
+}
+.switch.on{
+    filter: grayscale(0);
+}
+
+.switch.on::after{
+    left:100%;
+    transform:translate(calc(-100% - calc(var(--gap) / 2)), -50%);
+}

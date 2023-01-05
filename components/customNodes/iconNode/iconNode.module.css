@@ -1,0 +1,12 @@
+.nodeContainer{
+    height:70px;
+    width:70px;
+    background-image:var(--gradient);
+    @apply rounded-xl flex items-center justify-center;
+}
+
+.iconContainer{
+    height:50%;
+    width:50%;
+    position:relative;
+}

@@ -1,0 +1,33 @@
+.rightToolbar {
+  grid-area: rightToolbar;
+  @apply bg-black;
+}
+
+.button {
+  @apply flex gap-2 items-center justify-between m-4 rounded-lg bg-black-light-1 p-2 pr-4 hover:cursor-pointer;
+}
+
+.arrowImageContainer {
+  background-image: var(--gradient);
+  @apply rounded-lg p-4;
+}
+
+.buttonText {
+  flex-grow: 1;
+  margin-left: 8px;
+}
+
+.buttonText > div:first-of-type {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+}
+
+.buttonText > div:last-of-type {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: capitalize;
+  opacity:.8;
+}

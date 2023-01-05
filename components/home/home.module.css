@@ -1,0 +1,15 @@
+.homeComponent{
+    @apply bg-black-dark p-2;
+    height:100%;
+    width:100%;
+    display:grid;
+    grid-template-columns:70px 1fr 400px;
+    grid-template-rows:50px 1fr;
+    grid-template-areas:"leftToolbar header header" "leftToolbar canvas rightToolbar";
+    grid-gap:8px;
+}
+
+.homeComponent>*{
+    @apply rounded-lg;
+    overflow:hidden;
+}

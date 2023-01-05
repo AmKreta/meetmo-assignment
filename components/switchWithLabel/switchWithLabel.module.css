@@ -1,0 +1,10 @@
+.switchContainer {
+  @apply m-5 flex items-center justify-between;
+}
+
+.switchContainer > div:first-of-type {
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: capitalize;
+  @apply text-text-white;
+}

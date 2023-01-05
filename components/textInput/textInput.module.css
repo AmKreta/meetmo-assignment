@@ -1,0 +1,38 @@
+.input {
+  border: 2px solid #39404b;
+  @apply rounded-md px-2 py-0.5;
+}
+
+.input > input {
+  border: none;
+  outline: none;
+  height:100%;
+  width:100%;
+  background: transparent;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: capitalize;
+  @apply text-text-white;
+}
+
+.input > input::-webkit-input-placeholder {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.input > input:-ms-input-placeholder {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.input > input::placeholder {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: capitalize;
+}

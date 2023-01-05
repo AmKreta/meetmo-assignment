@@ -1,0 +1,14 @@
+.leftToolbar{
+    @apply flex flex-col bg-black items-center justify-start py-4;
+    grid-area: leftToolbar;
+}
+
+.imageContainer{
+    height:50px;
+    width:50px;
+    @apply flex items-center justify-center rounded-xl my-2 hover:cursor-pointer;
+}
+
+.active{
+    background-image:var(--gradient);
+}
