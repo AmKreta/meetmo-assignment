@@ -2,7 +2,7 @@ import { useState } from 'react';
 import SliderComponent from '../slider/slider.component';
 import style from './sliderWithLabel.module.css';
 
-export default function({label, value=0, unit='', onChange, min=0, max=100}){
+export default function SliderWithLabel({label, value=0, unit='', onChange, min=0, max=100}){
     const [val,setVal]=useState(value);
 
     const changeHandler=function(newVal){

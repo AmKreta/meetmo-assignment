@@ -1,7 +1,7 @@
 import style from "./switch.module.css";
 import { useState } from "react";
 
-export default function ({ isOn, onToggle, size, gap }) {
+export default function Switch({ isOn, onToggle, size, gap }) {
   const [value, setValue] = useState(isOn);
 
   const toggleValue = () => {

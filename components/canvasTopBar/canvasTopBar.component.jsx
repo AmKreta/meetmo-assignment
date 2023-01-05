@@ -9,7 +9,7 @@ const images=[
     '/assets/connectionPlus.svg'
 ];
 
-export default function(){
+export default function CanvasTopBar(){
     return <div className={style.topBarContainer}>
         {
             images.map((src,index)=><div key={index} className='flex items-center gap-1.5 hover:cursor-pointer'>

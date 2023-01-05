@@ -5,7 +5,7 @@ import TextInputComponent from '../textInput/textInput.component';
 import VideoComponent from '../video/video.component';
 import style from './rightToolbar.module.css';
 
-export default function () {
+export default function RightToolbar() {
     return <div className={style.rightToolbar}>
         <VideoComponent />
         <div className={style.button}>

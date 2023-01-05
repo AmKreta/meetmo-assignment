@@ -3,7 +3,7 @@ import { Handle, useReactFlow, useStoreApi } from "reactflow";
 import style from './customNode.hoc.module.css';
 
 
-export default function (WrappedComponent) {
+export default function CustomNode(WrappedComponent) {
   return function ModifiedComponent({ id, data }) {
 
     const { setNodes } = useReactFlow();

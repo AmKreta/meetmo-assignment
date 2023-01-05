@@ -13,7 +13,7 @@ const images=[
     '/assets/person.svg'
 ];
 
-export default function(){
+export default function LeftToolbar(){
 
     const [activeTool, setActiveTool]=useState(1);
 

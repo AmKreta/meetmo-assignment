@@ -19,11 +19,11 @@ const nodeTypes = {
 }
 
 const defaultEdgeOptions = {
-    style: { strokeWidth: 2, stroke:'var(--blue-light)' },
+    style: { strokeWidth: 2, stroke:'var(--blue-dark)' },
 };
 
 
-export default function () {
+export default function CanvasMain () {
 
     const [contextMenu, setContaxteMenu] = useState({ x: 0, y: 0, show: false });
     const [nodes, setNodes, onNodesChange] = useNodesState([]);

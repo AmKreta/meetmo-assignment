@@ -3,7 +3,7 @@ import style from './video.module.css';
 
 const iconSize = 14;
 
-export default function () {
+export default function Video() {
     return <div className={style.videoContainer}>
         <div className={style.video}>
             <Image src='/assets/3dVidPreview.png' alt='preview' fill />

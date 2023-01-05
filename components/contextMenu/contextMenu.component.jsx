@@ -2,7 +2,7 @@ import style from "./contextMenu.module.css";
 import { createPortal } from "react-dom";
 
 //{icon:ReactIcon, title:'', onClick:function}[]
-export default function ({ menuItems, x, y, closeContextMenu }) {
+export default function ContaxteMenu({ menuItems, x, y, closeContextMenu }) {
 
   const clickHandler=function(e){
     const el=e.currentTarget;

@@ -8,7 +8,7 @@ const leftToolsImages = [
     '/assets/window.svg'
 ]
 
-export default function () {
+export default function Topbar() {
     const [activeLeftTool, setActiveLeftTool] = useState(0);
 
     const onLeftToolItemClick = function (e) {

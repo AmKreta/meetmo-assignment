@@ -1,4 +1,4 @@
-export default function () {
+export default function SvgGradient() {
   return (
     <svg height="150" width="400">
       <defs>
